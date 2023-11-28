@@ -4,7 +4,9 @@
 This project aims to develop a dog breed classification model using a dataset of 120 dog breeds obtained from Kaggle. Built using deep learning techniques with TensorFlow and Keras libraries, the project's objective is to accurately classify the breed of dogs from given images.
 
 ## Data Preprocessing
-The project includes the following steps for data preparation and model training:
+The dataset used in this project is obtained from the Dog Breed Identification challenge hosted on Kaggle, which can be found [here](https://www.kaggle.com/competitions/dog-breed-identification/data). 
+
+The preprocessing steps include:
 - Loading images and normalizing pixel values.
 - Converting categorical labels (dog breeds) to numerical format using Label Encoding.
 - Splitting the dataset into training, validation, and testing sets.
